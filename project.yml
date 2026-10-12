@@ -31,6 +31,9 @@ targets:
     type: bundle.unit-test
     platform: iOS
     sources: [VelocityTests]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
     dependencies:
       - target: Velocity
 schemes:
